@@ -1,0 +1,1 @@
+Open with webpack on a local server via terminal. Go to directory and type "npm run start". This will build and open website (bundle.js version)

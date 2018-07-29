@@ -1,0 +1,93 @@
+body {
+  text-align: center; /* reset this so you can you display:inline-block in wrapper */
+  background-color: #000000;
+  color: #ffffff;
+}
+
+#content {
+  display: inline-block;
+  text-align: center;
+}
+
+#header_pic {
+  border: 0;
+}
+
+.centered {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  background-color: #aa4444;
+}
+
+.menu {
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  background-color: #909090; /*light grey*/
+  font-size: 20px;
+  width: 120px;
+  padding: 10px 0px;
+  margin-right: -4px;
+}
+
+.menu:hover {
+  background-color: #606060; /*dark grey*/
+  cursor: pointer;
+}
+
+#menus {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#menu_home {
+  clear: both;
+  display: inline-block;
+}
+
+#menu_menu {
+  display: inline-block;
+}
+
+#menu_contact {
+  display: inline-block;
+}
+
+#menu_items {
+  list-style-type: none;
+  padding-left: 0;
+  padding-top: 5px;
+}
+
+.menu_items,
+#menu_list,
+#contact {
+  margin: 0;
+  padding-left: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 24px;
+  width: 250px;
+  background-color: #aa4444;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#welcome,
+#contact,
+#menu_list {
+  clear: both;
+  margin-top: 50px;
+  font-size: 24px;
+}
+
+#address {
+  font-size: 24px;
+}
